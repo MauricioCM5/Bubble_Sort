@@ -1,0 +1,30 @@
+#Mauricio Colque Morales 
+
+DE MAYOR A MENOR
+indice inicial = 0 hasta tamaño del array
+loop:
+	
+	if indice1 == size go to fin
+	final_de_loop2 = tamaño del array - i - 1
+	indice2 = 0
+	loop2:
+		if indice2 == final_de_loop2 go to sigue_loop
+		if array[indice2] < array[indice2 +1] NO DA -> ir a sigue_loop
+		hacer swap
+		
+		
+		
+		indice2 += 1
+		j loop2
+		
+		
+	sigue_loop:
+		indice inicial + = 1
+		j loop
+		
+
+impresion del array
+	--
+
+fin
+	syscall
